@@ -828,6 +828,7 @@ footer {
   }
   
   #projects > p {
+    display: block;
     width: 50vw;
     font-size: 20px;
     padding-top: 100px;
