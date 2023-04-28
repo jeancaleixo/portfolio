@@ -282,7 +282,7 @@ footer {
 }
 
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 800px) {
   
   * {
     margin: 0px;
@@ -353,12 +353,12 @@ footer {
 
 #apresentation > h2 {
  text-align: center;
- padding: 0px;
+ margin-left: 50px;
 }
 
 #apresentation > p {
  width: 80vw;
- text-align: left;
+ padding-left: 60px; 
  font-size: 20px;
 }
 
