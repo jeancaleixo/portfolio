@@ -491,12 +491,14 @@ footer {
   }
 
   .header{
+  width: auto;
   height: 60px;
   display: flex;
   justify-content: center;
   }
 
   #menu{
+    width: auto;
     display: block;
   }
 
@@ -508,6 +510,7 @@ footer {
   }
 
   #headerLinks {
+    width: auto;
     display: none;
     
   }
