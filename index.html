@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+
+  <title>Portfólio | Jean de Castro</title>
+</head>
+<body>
+
+  <div class="container">
+    <header class="header">
+      <button id="menuBtn" onclick="menu()">
+        <span id="menu" class="material-symbols-outlined">
+          menu
+          </span>
+      </button>
+      <a href="#"><img src="imagens/LogoJean.png" alt="Logo Header" class="logonavbar"></a>
+      <div id="headerLinks">
+        <a id="linkOpening" href="#opening">Inicío</a>
+        <a id="linkApresentation" href="#apresentation">Apresentação</a>
+        <a id="linkProjects" href="#projects">Projetos</a>
+        <a id="linkTecnologies" href="#tecnologies">Tecnologias</a>
+      </div>
+    </header>
+
+  <main>
+
+    <section id="opening">
+      <h1>Bem vindo! <br> Obrigado por acessar meu Portfólio</h1>
+      <br>
+      <a href="https://www.linkedin.com/in/jean-de-castro-aleixo-380421229/" target="_blank">
+        <button>
+         LINKEDIN
+        </button>
+      </a>
+      <br>
+      <br>
+      <br>
+      <p>Acesse aqui os meus repositórios:</p>
+      <br>
+      <br>
+      <br>
+      <a href="https://github.com/jeancaleixo" target="_blank"><img id="logoGitHub" src="imagens/logoGitHub.png" alt="logoGitHub"></a>
+
+    </section>
+    
+
+      <section id="apresentation">
+        <h2>Apresentação</h2>
+        <br>
+        <p>Olá, me chamo Jean de Castro Aleixo, tenho 18 anos e moro em São Paulo. Comecei a estudar programação em 2022, mas sempre tive afinidade e gosto por tecnologia. Ainda não tenho nenhum tipo de experiência profissional, por isso por meio deste, venho exibir alguns projetos, na esperança de uma oportunidade de estágio onde eu consiga aplicar o que venho estudando e também aprender mais!
+          <br>
+          <br>
+          <br>
+          <img id="avatarImg" style="width: 300px; height: 300px;" src="imagens/avatar.png" alt="">
+          <br>
+          <br>
+          <br>
+         
+        
+
+        
+        <div id="avatar">
+          <model-viewer src="https://models.readyplayer.me/643d65e3eb9b788023356093.glb" camera-controls touch-action="pan-y" style="width: 700px; height: 700px;"></model-viewer>
+        </div>
+
+      </section>
+
+
+    <section id="projects">
+
+      <h2>Projetos</h2>
+      <br>
+      <br>
+      <br>
+      <div id="projectsBtn">
+        <a href="https://jeancaleixo.github.io/projeto-cordel/" target="_blank"><button>CORDEL</button></a>
+        <a href="https://jeancaleixo.github.io/Projeto-Esportes/" target="_blank"><button>SPORTCENTER</button></a>
+        <a href="https://jeancaleixo.github.io/projeto-login/" target="_blank"><button>LOGIN</button></a>
+      </div>
+
+
+      <div class="maincontent">
+        <div class="categorycard">
+          <a href="https://jeancaleixo.github.io/projeto-cordel/" target="_blank"><img src="imagens/logoCordel.png" alt="CORDEL" class="maincardimg"></a>
+        </div>
+        <div class="categorycard">
+          <a href="https://jeancaleixo.github.io/Projeto-Esportes/" target="_blank"><img src="imagens/logoSportes.png" alt="SPORTSCENTER" class="maincardimg"></a>
+        </div>
+        <div class="categorycard">
+          <a href="https://jeancaleixo.github.io/projeto-login/" target="_blank"><img src="imagens/logoLogin.png" alt="LOGIN" class="maincardimg"></a>
+        </div>
+      </div>
+
+
+        <p>Acima estão os projetos que considero conter o resumo de meus conhecimentos em HTML5 e CSS3, ainda não tenho um grande projeto com uso de JavaScript, mas em breve irei preencher essa lacuna!(Todos os projetos são responsivos)</p>
+      
+    </section>
+
+
+    <section id="tecnologies">
+
+      <h2>Tecnologias:</h2>
+      <br>
+      <br>
+      <br>
+      <div class="logoTecnologies">
+        <div class="tecnologiesCard">
+         <img src="imagens/html5.png" alt="HTML5" class="tecnologiesImg">
+        </div>
+        <div class="tecnologiesCard">
+          <img src="imagens/css3.png" alt="CSS3" class="tecnologiesImg">
+        </div>
+        <div class="tecnologiesCard">
+          <img src="imagens/javascript.png" alt="JAVASCRPIT" class="tecnologiesImg">
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      
+      <div class="inSoon">
+        <p>IN SOON: 
+          <br>
+          <br>
+          <br>
+          <img style="height: 90px;" src="imagens/typescript.png" alt=""> 
+          <img src="imagens/bootstrap.png" alt="">
+          <img src="imagens/sass.png" alt="">
+          <img src="imagens/react.png" alt="">
+          <img src="imagens/bulma.png" alt="">
+          <img src="imagens/node.png" alt="">
+          <img src="imagens/mongodb.png" alt=""> 
+          <img src="imagens/sql.png" alt=""> 
+        </p>
+      </div>
+    </section>
+    
+  </main>
+
+  <footer>
+    <p>Desenvolvido por: Jean de Castro Aleixo</p>
+  </footer>
+
+
+<script>
+
+  function menu(){
+   if (headerLinks.style.display == 'flex'){
+    headerLinks.style.display = 'none'
+   } else {
+    headerLinks.style.display = 'flex'
+   }
+  }
+
+</script>
+</body>
+</html>
