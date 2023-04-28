@@ -305,17 +305,19 @@ footer {
   }
 
   .header{
-  
+  width: auto;
   height: 60px;
   display: flex;
   justify-content: center;
   }
 
   #menu{
+    width: auto;
     display: block;
   }
 
   #menuBtn{
+    width: auto;
     display: block;
     cursor: pointer;
     background-color: transparent;
@@ -323,6 +325,7 @@ footer {
   }
 
   #headerLinks {
+    width: auto;
     display: none;
     gap: 0px;
   }
